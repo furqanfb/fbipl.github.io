@@ -1,0 +1,165 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    color: rgb(179, 179, 186)
+    
+    
+}
+header{
+    height: 10vh;
+}
+header h2{
+    position: absolute;
+    left: 15%;
+    margin-top: 20px;
+}
+header img{
+    position: absolute;
+    left: 15%;
+    width: 7%;
+    
+}
+
+.nav{
+    position: absolute;
+    width: 100%;
+}
+.nav a{
+    position: relative;
+    left: 45%;
+    top: 25px;
+    color: rgb(47, 67, 218);
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+
+
+footer{
+    background-color: rgb(34, 36, 38);
+    color: silver;
+    height: 10vh;
+    text-align: center;
+    top: 25px;
+    font-size: medium;    
+}
+
+/* banner --------------------- main */
+.main-hd{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7) url('./img/bg6.jpg'); 
+    /* background-image: linear-gradient(rgb(0, 0, 0),rgba(39, 92, 58, 0.7)),url(../FB-IPL/img/bg6.jpg); */
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    
+}
+.main-hd h1{
+    padding-top: 10%;
+    padding-left: 16%;
+    color: silver;
+    font-size: 48px
+}
+.main-hd p{
+    padding-left: 16%;
+    color: silver;
+    font-size: 20px
+}
+#btn1{
+    padding-left: 16%;
+    background: transparent;
+    padding-top: 15px;
+
+}
+.bt{
+    background: transparent;
+    width: 100px;
+    height: 30px;
+    color: silver;
+    border-radius: 5px solid white;
+    border: 2px solid white;
+    
+
+}
+.bt:hover{
+    color: goldenrod;
+
+}
+
+/* Galley side------------- */
+
+.gallery{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.gallery-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.gallery-col img{
+    width: 100%;
+}
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transition: 0.5s;
+    color: silver;
+}
+
+.layer:hover{
+    background: rgba(66, 63, 63, 0.7);
+}
+.row1g{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* about us ----- */
+.about-us{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.about-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.about-col img{
+    width: 80%;
+   
+}
+
+.CTA{
+    text-align: center;
+    padding: 50px;
+    margin: 7%;
+    height: 40vh;
+    background-image: url('./img/bg1.jpg');
+    border-radius: 150px;
+   
+}
+
+
+
+
+
